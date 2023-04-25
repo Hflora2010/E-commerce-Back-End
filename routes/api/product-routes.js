@@ -49,7 +49,26 @@ router.get('/:id', async (req, res) => {
 });
 
 // create new product
-router.post('/', (req, res) => {
+router.post('/', async (req, res) => {
+  console.log(req.body);
+  try {
+    const newProduct = await Product.create({
+      product_name: req.body.product_name,
+      price: req.body.price,
+      stock: req.body.stock,
+      tagIds: req.body.tagIds,
+    });
+    console.log(newProduct);
+
+    if(!newProduct) {
+      res.status(400).json({ message: "error creating this product"});
+      return;
+    }
+    res.status(200).send('new product created');
+  } catch (err) {
+    res.status(500).send('internal server error')
+    console.log(err);
+  }
   /* req.body should look like this...
     {
       product_name: "Basketball",
