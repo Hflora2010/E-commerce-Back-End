@@ -1,7 +1,7 @@
 # E-commerce Back End
 
 ## Description
-This is a SVG Logo Maker, that is generated through node.js which in turn is creating a logos through your command-line. We are working with the logo's shape, text and color of both the shape and the text. We have also run tests to ensure the code works properly. This is tested through inquirer.  
+This is the back end code of an internet retail site. Internet retail is also referred to as e-commerce. This is helpful for business owners to stay up to date on the latest technologies while updating their products. It will help to keep inventory in check and up to date. 
 
 ## Usage
 
