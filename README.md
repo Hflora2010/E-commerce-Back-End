@@ -36,6 +36,9 @@ Code was built out with the help of: <br>
 Uconn Tutor: Brandon Leek <br>
 Studygroup Helpers: Matthew Caschetto and Kevin Molyneaux Frank Olmsted<br>
 
+Starter Code was provided by: <br>
+Xander Rapstine and can be located here: <a href="https://github.com/coding-boot-camp/fantastic-umbrella"> Starter Code</a>
+
 References: 
 UCONN Module 13-ORM.
 
