@@ -45,9 +45,7 @@ router.get("/:id", async (req, res) => {
     console.log(product);
 
     if (!product) {
-      res
-        .status(404)
-        .json({ message: "could not retrieve a product with that id" });
+      res.status(404).json({ message: "could not retrieve a product with that id" });
       return;
     }
 
